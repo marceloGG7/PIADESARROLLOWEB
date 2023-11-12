@@ -40,6 +40,7 @@ header a:hover {
 
 #seccion1 {
     display: flex;
+    background-color: #daced9;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -104,6 +105,7 @@ header a:hover {
 
 #seccion3 p{
     background-color: #daced9;
+    color: #2c5494;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -117,10 +119,8 @@ header a:hover {
     align-items: center;
 }
 
-#seccion3 p{
-    color: #2c5494;
+#seccion4  {
     background-color: #daced9;
-    text-align: center;
 }
 
 #seccion4 h1{
@@ -138,6 +138,17 @@ header a:hover {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#seccion4 img {
+    width: 700px;
+    max-width: 420px;
+    max-height: 235px;
+    display: inline;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid #2c5494;
 }
 
 #seccion5 h1{
