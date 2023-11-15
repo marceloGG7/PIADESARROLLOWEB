@@ -33,6 +33,10 @@ header a {
     box-sizing: border-box;
 }
 
+header a:hover {
+    background-color: #eb252c;
+}
+
 h2{
     color: #2c5494;
     text-align: center;
