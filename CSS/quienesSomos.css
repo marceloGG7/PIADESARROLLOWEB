@@ -1,0 +1,235 @@
+* {
+    font-family: 'Lucida Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 4px solid #2c5494;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #5776ab;
+    margin: 0 30px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+header a:hover {
+    background-color: #eb252c;
+}
+
+footer {
+    text-align: center;
+    background-color: #daced9;
+    border-top: 4px solid #2c5494;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer h1 {
+    color: #2c5494;
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+footer small {
+    color: #2c5494;
+    margin-top: 30px;
+}
+
+#seccionA {
+    display: flex;
+    background-color: #daced9;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccionA h1 {
+    color: black;
+    background-color: #daced9;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 40px;
+    margin: 0 0px;
+}
+
+#seccionA #pb{
+    color: #2c5494;
+    background-color: #daced9;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#seccionA #imgb {
+    width: 700px;
+    max-width: 420px;
+    max-height: 235px;
+    display: inline;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid #2c5494;
+}
+
+#seccionB {
+    display: flex;
+    background-color: #daced9;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccionB h1 {
+    color: black;
+    background-color: #daced9;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 40px;
+    margin: 0 0px;
+}
+
+#seccionB #pc{
+    color: #2c5494;
+    background-color: #daced9;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#seccionB #imgc {
+    width: 700px;
+    max-width: 420px;
+    max-height: 235px;
+    display: inline;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid #2c5494;
+}
+
+#seccionC {
+    display: flex;
+    background-color: #daced9;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccionC h1 {
+    color: black;
+    background-color: #daced9;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 40px;
+    margin: 0 0px;
+}
+
+#seccionC #pd{
+    color: #2c5494;
+    background-color: #daced9;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#seccionC #imgd {
+    width: 700px;
+    max-width: 420px;
+    max-height: 235px;
+    display: inline;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid #2c5494;
+}
+
+#seccionD {
+    display: flex;
+    background-color: #daced9;
+    justify-content: center;
+    align-items: center;
+} 
+
+#seccionD h1 {
+    color: black;
+    background-color: #daced9;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 40px;
+    margin: 0 0px;
+}
+
+#seccionD #pf{
+    padding: 60px;
+    margin: 20px;
+    color: crimson;
+}
+
+#seccionD #imgj {
+    width: 700px;
+    max-width: 420px;
+    max-height: 235px;
+    display: inline;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid #2c5494;
+}
+
+
+#seccionE {
+    display: flex;
+    background-color: #daced9;
+    justify-content: center;
+    align-items: center;
+} 
+
+#seccionE h1 {
+    color: black;
+    background-color: #daced9;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 40px;
+    margin: 0 0px;
+}
+
+#seccionE #pa {
+    padding: 60px;
+    margin: 20px;
+    color: crimson;
+}
+
+#seccionE #imgk {
+    width: 700px;
+    max-width: 420px;
+    max-height: 235px;
+    display: inline;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 3px solid #2c5494;
+}
