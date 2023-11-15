@@ -34,6 +34,10 @@ header a {
     box-sizing: border-box;
 }
 
+header a:hover {
+    background-color: #eb252c;
+}
+
 .contenedor {
     background: #5776ab;
     padding: 5px;
