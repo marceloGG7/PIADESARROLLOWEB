@@ -1,0 +1,28 @@
+* {
+    font-family: 'Lucida Sans';
+}
+
+h2{
+    color: #2c5494;
+}
+
+h1{
+    text-align: center;
+    color: #eb252c;
+}
+
+body{
+    background-color: #daced9;
+}
+
+.clase1 img{
+    width: 300px;
+}
+
+.clase2 img{
+    width: 300px;
+}
+
+.clase3 img{
+    width: 300px;
+}
