@@ -12,7 +12,7 @@ btn.addEventListener("click", (e) => {
         nombre.value.trim() === "" || edad.value.trim() === "" || direccion.value.trim() === "" ||
         email.value.trim() === "" || sexo.value.trim() === "" || tipoSangre.value.trim() === ""
     ) {
-        alert("Por favor, completa todos los campos.");
+        alert("Por favor, completa todos los datos.");
     }
-    alert("Formulario enviado correctamente.");
+    alert("Datos enviados correctamente.");
 });

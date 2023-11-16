@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="CSS/contacto.css">
 </head>
 <body>
-    <h1>PAGINA DE CONTACTO</h1>
-
     <header>
         <img id="logo" src="IMAGENES/logo.png" alt="">
         <a href="index.html">INICIO</a>
@@ -21,36 +19,30 @@
 
     <section id="seccionConc">
         <h2>ENVIANOS UN MENSAJE MÁS DETALLADO SOBRE TU SITUACIÓN</h2>
-
         <form action="procesar_formulario.php" method="post">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
-    
             <label for="email">Correo Electrónico:</label>
             <input type="email" id="email" name="email" required>
-    
-            <label for="mensaje">Mensaje:</label>
+            <label for="telefono">Telefono:</label>
+            <input type="telefono" id="telefono" name="telefono" required>
+            <label for="mensaje">Detalla tu situacion para que un especialista se ponga en contacto contigo:</label>
             <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-    
-            <button type="submit">Enviar Mensaje</button>
+            <input type="submit" id="btn" name="btn" value="Enviar Mensaje">
         </form>
     </section>
 
     <section id="seccionConc1">
         <h2>PONERSE EN CONTACTO</h2>
-        
         <div class="divdecontacto">
             <img src="IMAGENES/telefonoicono.jpg" alt="Teléfono">
             <p>Número de Teléfono: <a href="tel:+123456789">+123 456 789</a></p>
         </div>
-    
         <div class="divdecontacto">
             <img src="IMAGENES/correoicono.png" alt="Correo Electrónico">
             <p>Email: <a href="contacto@jasman.com">contacto@jasman.com</a></p>
         </div>
-
     </section>
-   
 
     <footer>
         <h1>SIGUENOS EN NUESTRAS REDES SOCIALES:</h1>
@@ -62,5 +54,6 @@
         </div>
         <small>© DERECHOS RESERVADOS JASMAN 2023</small>
     </footer>
+    <script src="js/contacto.js"></script>
 </body>
 </html>
