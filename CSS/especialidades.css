@@ -34,20 +34,59 @@ header a {
     box-sizing: border-box;
 }
 
+footer {
+    text-align: center;
+    background-color: #daced9;
+    border-top: 4px solid #2c5494;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer h1 {
+    color: #2c5494;
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+footer small {
+    color: #2c5494;
+    margin-top: 30px;
+}
+
 .contenedor {
     background: #5776ab;
     padding: 5px;
-    border: 5px solid black;
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-
-    height: 500px;
+    align-items: flex-end;
 }
 
 .box {
-    border: 3px solid black;
     font-size: 30px;
-    text-align: center;
-    margin: 15px;
+    margin-left: 0px;
+    margin-right: 400px;
 }
+.box1 {
+    margin-left: 400px;
+}
+
+.contenedor2 {
+    background-color: #ef7476;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+}
+.box2 {
+    font-size: 30px;
+    margin: 0px;
+    
+}
+
