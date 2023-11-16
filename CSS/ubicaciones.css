@@ -1,5 +1,3 @@
-/* Encabezado */
-
 * {
     font-family: 'Lucida Sans';
 }
@@ -39,8 +37,6 @@ header a {
 header a:hover {
     background-color: #eb252c;
 }
-
-/* Pie de Pagina */
 
 footer {
     text-align: center;
