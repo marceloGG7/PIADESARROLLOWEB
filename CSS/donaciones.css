@@ -64,6 +64,7 @@ body{
 .clase3 img{
     width: 300px;
     margin-left: 500px;
+    margin-right: 800px;
 }
 
 .clase1 p{
@@ -73,24 +74,33 @@ body{
 }
 
 .clase2 p{
-    text-align: center;
+    text-align: justify;
     margin-left: 50px;
     margin-right: 50px;
 
 }
 
 .clase3 p{
-    text-align: center;
+    text-align: justify;
     margin-left: 50px;
     margin-right: 50px;
 
 }
 
 ol{
-    text-align: center;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-ul{
+
+li{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#psolita{
     text-align: center;
 }
 
