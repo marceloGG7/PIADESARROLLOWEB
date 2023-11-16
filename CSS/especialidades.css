@@ -60,20 +60,17 @@ footer small {
 .contenedor {
     background: #5776ab;
     padding: 5px;
-    
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
 }
 
 .box {
-    font-size: 30px;
-    margin-left: 0px;
-    margin-right: 400px;
+    font-size: 150px;
+    
 }
-.box1 {
-    margin-left: 400px;
-}
+
 
 .contenedor2 {
     background-color: #ef7476;
@@ -84,8 +81,9 @@ footer small {
     height: 200px;
 }
 .box2 {
-    font-size: 30px;
+    font-size: 100px;
     margin: 0px;
     
 }
+
 
