@@ -25,9 +25,9 @@ var validarDireccion = function(e){
     }
 };
 
-var validarCiudad = function(e){
-    if (formulario.ciudad.value == 0) {
-        alert("completa el campo ciudad");
+var validarEmail = function(e){
+    if (formulario.email.value == 0) {
+        alert("completa el campo email");
         e.preventDefault();
     }
 };
@@ -52,7 +52,7 @@ var validar = function(e){
     validarNombre(e);
     validarEdad(e);
     validarDireccion(e);
-    validarCiudad(e);
+    validarEmail(e);
     ValidarRadio(e);
     ValidarCheckbox(e);
 };
