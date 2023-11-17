@@ -67,15 +67,17 @@ footer small {
     background-color: #daced9;
     justify-content: center;
     align-items: center;
+    border-top: 4px solid #2c5494;
 }
 
-#seccionA h1 {
+#seccionA #h1 {
+    display: flex;
     color: black;
-    background-color: #daced9;
-    margin-bottom: 15px;
+    background: #5776ab;
     text-align: center;
     padding: 40px;
-    margin: 0 0px;
+    font-size: 30px;
+    justify-content: center;
 }
 
 #seccionA #pb{
@@ -95,6 +97,7 @@ footer small {
     margin-bottom: 10px;
     margin-top: 10px;
     border: 3px solid #2c5494;
+    justify-content: center;
 }
 
 #seccionB {
@@ -105,13 +108,14 @@ footer small {
 }
 
 #seccionB h1 {
-    color: black;
-    background-color: #daced9;
+    background: #5776ab;
+    color: tomato;
     margin-bottom: 15px;
     text-align: center;
     padding: 40px;
     margin: 0 0px;
 }
+
 
 #seccionB #pc{
     color: #2c5494;
@@ -140,8 +144,8 @@ footer small {
 }
 
 #seccionC h1 {
-    color: black;
-    background-color: #daced9;
+    color: tomato;
+    background: #5776ab;
     margin-bottom: 15px;
     text-align: center;
     padding: 40px;
@@ -165,6 +169,7 @@ footer small {
     margin-bottom: 10px;
     margin-top: 10px;
     border: 3px solid #2c5494;
+    justify-content: center;
 }
 
 #seccionD {
@@ -175,8 +180,8 @@ footer small {
 } 
 
 #seccionD h1 {
-    color: black;
-    background-color: #daced9;
+    color: tomato;
+    background: #5776ab;
     margin-bottom: 15px;
     text-align: center;
     padding: 40px;
@@ -209,8 +214,8 @@ footer small {
 } 
 
 #seccionE h1 {
-    color: black;
-    background-color: #daced9;
+    color: tomato;
+    background: #5776ab;
     margin-bottom: 15px;
     text-align: center;
     padding: 40px;

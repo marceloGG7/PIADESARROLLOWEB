@@ -14,5 +14,13 @@ btn.addEventListener("click", (e) => {
     ) {
         alert("Por favor, completa todos los datos.");
     }
-    alert("Datos enviados correctamente.");
+    else {
+        alert("Datos enviados correctamente.");
+        nombre.value = "";
+        edad.value = "";
+        direccion.value = "";
+        email.value = "";
+        sexo.value = "";
+        tipoSangre.value = "";
+    }
 });
