@@ -1,34 +1,185 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" href="IMAGENES/Icono.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="CSS/ubicaciones.css">
+
     <title>Ubicaciones JASMAN</title>
+    
 </head>
+
 <body>
+
     <!-- Encabezado -->
+
     <header>
+
         <img id="logo" src="IMAGENES/logo.png" alt="">
+
         <a href="index.html">INICIO</a>
+
         <a href="especialidades.html">ESPECIALIDADES</a>
+
         <a href="contacto.html" >CONTACTO</a>
+
         <a href="donaciones.html">DONACIONES</a>
+
         <a href="quienesSomos.html">QUIENES SOMOS</a>
+
         <a href="ubicaciones.html">UBICACIONES</a>
+
     </header>
 
-    <!-- Pie de Pagina -->
-    <footer>
-        <h1>SIGUENOS EN NUESTRAS REDES SOCIALES:</h1>
-        <div>
-            <img src="IMAGENES/instagram.png" alt="OLA">
-            <img src="IMAGENES/facebook.png" alt="">
-            <img src="IMAGENES/youtube.png" alt="">
-            <img src="IMAGENES/twitter.png" alt="">
+    <!-- Contenido -->
+
+    <main id="main1">
+
+        <div id="div1">
+
+            <h2>HOSPITAL JASMAN</h2>
+
         </div>
+
+        <div id="div2">
+
+            <label for="Estado">ESTADO :</label>
+
+            <select name="Estado" id="Estado" onchange="redirigir()">
+
+                <option value="NuevoLeon">Nuevo Leon</option>
+
+                <option value="Coahuila">Coahuila</option>
+
+                <option value="Tamaulipas">Tamaulipas</option>
+
+                <option value="Durango">Durango</option>
+
+                <option value="Sonora">Sonora</option>
+
+            </select>
+
+        </div>
+
+    </main>
+
+    <h2 id="Mexico">México</h2>
+
+    <main id="main2">
+
+        <section id="NuevoLeon">
+
+            <div id="seccion1">
+
+                <img src="IMAGENES/NuevoLeon.jpg" alt="Nuevo Leon HOSPITAL">
+
+                <div>
+
+                    <p>Nuevo Leon</p>
+
+                </div>
+    
+            </div>
+
+        </section>
+
+        <section id="Coahuila">
+
+            <div id="seccion2">
+
+                <img src="IMAGENES/NuevoLeon.jpg" alt="Coahuila HOSPITAL">
+
+                <div>
+
+                    <p>Coahuila</p>
+
+                </div>
+    
+            </div>
+
+        </section>
+
+        <section id="Tamaulipas">
+
+            <div id="seccion3">
+
+                <img src="IMAGENES/NuevoLeon.jpg" alt="Tamaulipas HOSPITAL">
+
+                <div>
+
+                    <p>Tamaulipas</p>
+
+                </div>
+    
+            </div>
+
+        </section>
+
+        <section id="Durango">
+
+            <div id="seccion4">
+
+                <img src="IMAGENES/NuevoLeon.jpg" alt="Durango HOSPITAL">
+
+                <div>
+
+                    <p>Durango</p>
+
+                </div>
+    
+            </div>
+
+        </section>
+
+        <section id="Sonora">
+
+            <div id="seccion5">
+
+                <img src="IMAGENES/NuevoLeon.jpg" alt="Sonora HOSPITAL">
+
+                <div>
+
+                    <p>Sonora</p>
+
+                </div>
+    
+            </div>
+
+        </section>
+
+    </main>
+    
+    <!-- Pie de Pagina -->
+
+    <footer>
+
+        <h1>SIGUENOS EN NUESTRAS REDES SOCIALES:</h1>
+
+        <div>
+
+            <img src="IMAGENES/instagram.png" alt="OLA">
+            
+            <img src="IMAGENES/facebook.png" alt="">
+            
+            <img src="IMAGENES/youtube.png" alt="">
+            
+            <img src="IMAGENES/twitter.png" alt="">
+            
+        </div>
+        
         <small>© DERECHOS RESERVADOS JASMAN 2023</small>
+        
     </footer>
+    
+    <script src="js/ubicaciones.js"></script>
+    
 </body>
+
 </html>

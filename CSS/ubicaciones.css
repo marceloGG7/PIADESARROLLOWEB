@@ -61,3 +61,131 @@ footer small {
     color: #2c5494;
     margin-top: 30px;
 }
+
+/* main 1 */
+
+#main1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:#eb252c;
+    font-size: 25px;
+  }
+
+#div2 label,select,option {
+    font-size: 25px;
+}
+
+/* Etiqueta h2 */
+
+#Mexico {
+    text-align: center;
+    padding: 20px;
+    background-color:#2c5494;
+    font-size: 30px;
+}
+
+/* Nuevo Leon */
+
+#NuevoLeon {
+    background-color:#2c5494;
+    text-align: center;
+}
+
+#seccion1 {
+    display: flex;
+    align-items: center;
+    background-color:#5776ab;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+#seccion1 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+/* Coahuila */
+
+#Coahuila {
+    background-color:#2c5494;
+    text-align: center;
+}
+
+#seccion2 {
+    display: flex;
+    align-items: center;
+    background-color:#5776ab;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+#seccion2 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+/* Tamaulipas */
+
+#Tamaulipas {
+    background-color:#2c5494;
+    text-align: center;
+}
+
+#seccion3 {
+    display: flex;
+    align-items: center;
+    background-color:#5776ab;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+#seccion3 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+/* Durango */
+
+#Durango {
+    background-color:#2c5494;
+    text-align: center;
+}
+
+#seccion4 {
+    display: flex;
+    align-items: center;
+    background-color:#5776ab;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+#seccion4 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+/* Sonora */
+
+#Sonora {
+    background-color:#2c5494;
+    text-align: center;
+}
+
+#seccion5 {
+    display: flex;
+    align-items: center;
+    background-color:#5776ab;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+#seccion5 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
