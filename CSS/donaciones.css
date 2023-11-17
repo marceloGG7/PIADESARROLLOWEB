@@ -116,9 +116,9 @@ form{
     text-align: center;
 }
 
-
-.btn{
+#btn{
     padding: 5px 30px;
+    background-color: #eb252c;
 }
 
 
