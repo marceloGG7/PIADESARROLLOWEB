@@ -40,9 +40,8 @@ header a:hover {
 
 h2 {
     text-align: center;
-    padding: 15px
+    padding: 15px;
 }
-
 
 #seccionConc {
     margin-bottom: 15px;
@@ -62,7 +61,8 @@ h2 {
     margin-bottom: 16px;
     box-sizing: border-box;
 }
-#seccionConc button {
+
+#seccionConc #btn {
     background-color: #2c5494;
     color: white;
     padding: 10px 15px;
@@ -70,7 +70,7 @@ h2 {
     border-radius: 4px;
     cursor: pointer;
 }
-#seccionConc button:hover {
+#seccionConc #btn {
     background-color: #eb252c;
 }
 
@@ -78,8 +78,6 @@ h2 {
     text-align: center;
     padding: 15px;
 }
-
-
 
 .divdecontacto {
     padding: 15px
@@ -90,9 +88,6 @@ h2 {
     margin: 0 30px;
     margin-bottom: 20px;
 }
-
-
-
 
 footer {
     text-align: center;
@@ -117,5 +112,3 @@ footer small {
     color: #2c5494;
     margin-top: 30px;
 }
-
-
