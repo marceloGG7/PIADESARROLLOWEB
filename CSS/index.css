@@ -61,7 +61,7 @@ header a:hover {
     display: inline;
     margin: 0 10px;
     margin-bottom: 10px;
-    border: 3px solid #2c5494;
+    border-radius: 10px;
 }
 
 #seccion2 h1,h2 {
@@ -71,14 +71,6 @@ header a:hover {
     text-align: center;
     padding: 20px;
     margin: 0 0px;
-}
-
-#seccion2 img {
-    margin-bottom: 15px;
-    padding: 20px;
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #2c5494;
 }
 
 #seccion3 {
@@ -93,6 +85,9 @@ header a:hover {
     grid-area: img1;
     max-width: 100%;
     max-height: 100%;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #seccion3 #p1 {
@@ -147,8 +142,9 @@ header a:hover {
     display: inline;
     margin: 0 10px;
     margin-bottom: 10px;
-    margin-top: 10px;
-    border: 3px solid #2c5494;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #seccion5 h1{
@@ -166,6 +162,7 @@ header a:hover {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 20px;
 }
 
 footer {
