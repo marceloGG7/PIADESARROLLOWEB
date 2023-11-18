@@ -1,6 +1,8 @@
+/* Funcion Dirigir al Municipio */
+
 function redirigir() {
 
-    var Estado = document.getElementById("Estado").value;
+    var MUNICIPIO = document.getElementById("MUNICIPIO").value;
 
-    window.location.href = "#" + Estado;
+    window.location.href = "#" + MUNICIPIO;
   }
