@@ -105,21 +105,42 @@ li{
 }
 
 input[type="text"]{
+    box-shadow: 5px 5px 10px #2c5494;
+    margin-bottom: 1%;
+    border-radius: 10px ;
     margin-left: 25px;
     padding: 8px;
     border: none;
-    border-bottom: 3px solid rgb(17, 17, 17);
     height: 50px;
+    width: 23%;
 }
+.tiposexo{
+    margin: 5px;
+}
+.tiposangre{
+    margin: 5px;
+}
+
 
 form{
     text-align: center;
+}
+.containerbtn{
+    margin-bottom: 15px;
 }
 
 #btn{
     padding: 5px 30px;
     background-color: #eb252c;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
+
+#btn:hover {
+
+    background-color: rgb(255, 0, 8);
+  }
 
 
 
