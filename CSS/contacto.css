@@ -78,6 +78,11 @@ h2 {
     background-color: #eb252c;
 }
 
+label{
+    color: #2c5494;
+    font-weight: bold;
+}
+
 #seccionConc1 {
     text-align: center;
     padding: 15px;
@@ -88,7 +93,6 @@ h2 {
     display: block; 
     width: 1000px;
     height: 500px;
-    
 }
 
 .divdecontacto {
@@ -112,7 +116,7 @@ h2 {
 
 footer {
     text-align: center;
-    background-color: #daced9;
+    background-color: white;
     border-top: 4px solid #2c5494;
     padding: 20px;
     box-sizing: border-box;
