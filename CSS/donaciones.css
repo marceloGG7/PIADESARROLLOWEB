@@ -1,6 +1,7 @@
 * {
     font-family: 'Lucida Sans';
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +14,7 @@
 }
 
 header {
-    width: 100%;
+    /*width: 100%;*/
     background-color: white;
     border-bottom: 4px solid #2c5494;
     padding: 10px;
@@ -51,39 +52,65 @@ body{
     background-color: #daced9;
 }
 
-.clase1 img{
-    width: 300px;
-    margin-left: 500px;
+.clase1 {
+   padding: 35px;
 }
 
-.clase2 img{
-    width: 300px;
-    margin-left: 500px;
+.clase2 {
+    padding: 35px;
 }
 
-.clase3 img{
-    width: 300px;
-    margin-left: 500px;
-    margin-right: 800px;
+
+.containerimg{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+
+}
+.img{
+    width: 30%;
+}
+
+.img2caca{
+    text-align: center;
+
+}
+
+.metal{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.clase3{
+    padding: 35px;
+
+}
+.imgcaca2{
+    text-align: center;
+
+}
+
+.imgcaca{
+    margin: 0 auto;
+    width: 400px;
 }
 
 .clase1 p{
     text-align:justify;
-    margin-left: 50px;
-    margin-right: 50px;
+
 }
 
 .clase2 p{
     text-align: justify;
-    margin-left: 50px;
-    margin-right: 50px;
+    
 
 }
 
 .clase3 p{
     text-align: justify;
-    margin-left: 50px;
-    margin-right: 50px;
+    
 
 }
 
@@ -102,6 +129,7 @@ li{
 
 #psolita{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 input[type="text"]{
@@ -141,6 +169,8 @@ form{
 
     background-color: rgb(255, 0, 8);
   }
+
+
 
 
 
