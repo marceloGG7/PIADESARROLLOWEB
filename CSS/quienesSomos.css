@@ -53,6 +53,7 @@ header a:hover {
     color: #2c5494;
     line-height: 1.5;
     margin: 15px 0;
+    text-align: justify;
 }
 
 #imgb {
@@ -70,7 +71,7 @@ header a:hover {
 }
 
 #seccion2 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
 }
 
@@ -78,6 +79,7 @@ header a:hover {
     color: #2c5494;
     line-height: 1.5;
     margin: 10px 0;
+    text-align: justify;
 }
 
 #seccion3 {
@@ -89,7 +91,7 @@ header a:hover {
 }
 
 #seccion3 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
 }
 
@@ -97,6 +99,7 @@ header a:hover {
     color: #2c5494;
     line-height: 1.5;
     margin: 10px 0;
+    text-align: justify;
 }
 
 #imgc, #imgd , #imgk,#imgj {
@@ -118,7 +121,7 @@ header a:hover {
 }
 
 #seccion4 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
     text-align: center;
 }
@@ -132,7 +135,7 @@ header a:hover {
 }
 
 #seccion5 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
     text-align: center;
 }
