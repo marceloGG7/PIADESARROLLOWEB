@@ -110,11 +110,11 @@ header a:hover {
     display: flex;
 }
 
-div {
+#seccionContainer2 {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
     background-color: #daced9;
+    padding: 20px;
 }
 
 #seccion4 h1 {
