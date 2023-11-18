@@ -40,15 +40,15 @@ header a:hover {
 
 #seccion1 {
     display: flex;
-    background-color: #daced9;
+    background-color: white;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 #seccion1 h1 {
-    color: #2c5494;
-    background-color: #daced9;
+    color: red;
+    background-color: white;
     margin-bottom: 15px;
     text-align: center;
     padding: 20px;
@@ -65,8 +65,8 @@ header a:hover {
 }
 
 #seccion2 h1,h2 {
-    color: #2c5494;
-    background-color: #daced9;
+    color: red;
+    background-color: white;
     margin-bottom: 15px;
     text-align: center;
     padding: 20px;
@@ -104,7 +104,7 @@ header a:hover {
 }
 
 #seccion3 p{
-    background-color: #daced9;
+    background-color: white;
     color: #2c5494;
     text-align: center;
     padding-left: 30px;
@@ -112,20 +112,20 @@ header a:hover {
 }
 
 #seccion3 h2 {
-    color: #2c5494;
-    background-color: #daced9;
+    color: red;
+    background-color: white;
     text-align: center;
     display: flex;
     align-items: center;
 }
 
 #seccion4  {
-    background-color: #daced9;
+    background-color: white;
 }
 
 #seccion4 h1{
-    color: #2c5494;
-    background-color: #daced9;
+    color: red;
+    background-color: white;
     margin-bottom: 15px;
     text-align: center;
     padding: 40px;
@@ -134,7 +134,7 @@ header a:hover {
 
 #seccion4 p{
     color: #2c5494;
-    background-color: #daced9;
+    background-color: white;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -152,8 +152,8 @@ header a:hover {
 }
 
 #seccion5 h1{
-    color: #2c5494;
-    background-color: #daced9;
+    color: red;
+    background-color: white;
     margin-bottom: 15px;
     text-align: center;
     padding: 40px;
@@ -162,7 +162,7 @@ header a:hover {
 
 #seccion5 p{
     color: #2c5494;
-    background-color: #daced9;
+    background-color: white;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -170,7 +170,7 @@ header a:hover {
 
 footer {
     text-align: center;
-    background-color: #daced9;
+    background-color: white;
     border-top: 4px solid #2c5494;
     padding: 20px;
     box-sizing: border-box;

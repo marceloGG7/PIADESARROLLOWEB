@@ -41,11 +41,11 @@ header a:hover {
 #seccion1 {
     text-align: center;
     padding: 20px;
-    background-color: #daced9;
+    background-color: white;
 }
 
 #seccion1 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
 }
 
@@ -53,6 +53,7 @@ header a:hover {
     color: #2c5494;
     line-height: 1.5;
     margin: 15px 0;
+    text-align: justify;
 }
 
 #imgb {
@@ -64,13 +65,13 @@ header a:hover {
 #seccion2 {
     text-align: center;
     padding: 20px;
-    background-color: #daced9;
+    background-color: white;
     width: 50%;
     box-sizing: border-box;
 }
 
 #seccion2 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
 }
 
@@ -78,18 +79,19 @@ header a:hover {
     color: #2c5494;
     line-height: 1.5;
     margin: 10px 0;
+    text-align: justify;
 }
 
 #seccion3 {
     text-align: center;
     padding: 20px;
-    background-color: #daced9;
+    background-color: white;
     width: 50%;
     box-sizing: border-box;
 }
 
 #seccion3 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
 }
 
@@ -97,6 +99,7 @@ header a:hover {
     color: #2c5494;
     line-height: 1.5;
     margin: 10px 0;
+    text-align: justify;
 }
 
 #imgc, #imgd , #imgk,#imgj {
@@ -113,12 +116,12 @@ header a:hover {
 #seccionContainer2 {
     display: flex;
     justify-content: space-around;
-    background-color: #daced9;
+    background-color: white;
     padding: 20px;
 }
 
 #seccion4 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
     text-align: center;
 }
@@ -132,7 +135,7 @@ header a:hover {
 }
 
 #seccion5 h1 {
-    color: #2c5494;
+    color:#eb252c;
     font-size: 24px;
     text-align: center;
 }
@@ -146,7 +149,7 @@ header a:hover {
 
 footer {
     text-align: center;
-    background-color: #daced9;
+    background-color: white;
     border-top: 4px solid #2c5494;
     padding: 20px;
     box-sizing: border-box;

@@ -71,23 +71,6 @@ header a:hover {
 }
 
 .box {
-    font-size: 150px;
-    
+    font-size: 130px;
 }
-
-
-.contenedor2 {
-    background-color: #ef7476;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
-    height: 200px;
-}
-.box2 {
-    font-size: 100px;
-    margin: 0px;
-    
-}
-
 

@@ -43,6 +43,10 @@ h2 {
     padding: 15px;
 }
 
+#seccionConc h2 {
+    color:#eb252c;
+}
+
 #seccionConc {
     margin-bottom: 15px;
 }
@@ -79,6 +83,14 @@ h2 {
     padding: 15px;
 }
 
+#seccionconcimg img {
+    margin: 0 auto;
+    display: block; 
+    width: 1000px;
+    height: 500px;
+    
+}
+
 .divdecontacto {
     padding: 15px
 }
@@ -87,6 +99,15 @@ h2 {
     width: 50px;
     margin: 0 30px;
     margin-bottom: 20px;
+
+}
+
+.divdecontacto p {
+    color: #2c5494;
+}
+
+#seccionConc1 h2 {
+    color:#eb252c;
 }
 
 footer {
