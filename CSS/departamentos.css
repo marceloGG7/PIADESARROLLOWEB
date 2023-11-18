@@ -33,9 +33,14 @@ header a {
     height: 100%;
     box-sizing: border-box;
 }
+
+header a:hover {
+    background-color: #eb252c;
+}
+
 footer {
     text-align: center;
-    background-color: #daced9;
+    background-color: white;
     border-top: 4px solid #2c5494;
     padding: 20px;
     box-sizing: border-box;
@@ -57,20 +62,23 @@ footer small {
     margin-top: 30px;
 }
 
-header a:hover {
-    background-color: #eb252c;
-}
-
-.contenedor {
-    background: #5776ab;
-    padding: 5px;
-    justify-content: center;
+main {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    color: #2c5494;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-.box {
+#titulo {
     font-size: 130px;
+    padding: 10px;
+    text-align: center;
+}
+
+#img1 {
+    width: 150px;
+    height: auto;
+    margin-left: 30px;
 }
 
