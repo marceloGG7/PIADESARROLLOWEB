@@ -112,7 +112,7 @@ header a:hover {
 }
 
 #seccion3 h2 {
-    color: #2c5494;
+    color: red;
     background-color: white;
     text-align: center;
     display: flex;
@@ -124,7 +124,7 @@ header a:hover {
 }
 
 #seccion4 h1{
-    color: #2c5494;
+    color: red;
     background-color: white;
     margin-bottom: 15px;
     text-align: center;
