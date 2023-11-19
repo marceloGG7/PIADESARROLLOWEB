@@ -14,7 +14,6 @@
 }
 
 header {
-    /*width: 100%;*/
     background-color: white;
     border-bottom: 4px solid #2c5494;
     padding: 10px;
@@ -43,7 +42,7 @@ h2{
     text-align: center;
 }
 
-h1{
+h1 , h2{
     text-align: center;
     color: #eb252c;
 }
@@ -53,13 +52,12 @@ body{
 }
 
 .clase1 {
-   padding: 35px;
+    padding: 35px;
 }
 
 .clase2 {
     padding: 35px;
 }
-
 
 .containerimg{
     margin: 0;
@@ -67,22 +65,38 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 50vh;
-
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 .img{
     width: 30%;
-    border: 2px solid #2c5494;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .img2caca{
     text-align: center;
-
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .metal{
     margin: 0 auto;
     width: 400px;
-    border: 2px solid #2c5494;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .clase3{
@@ -91,29 +105,31 @@ body{
 }
 .imgcaca2{
     text-align: center;
-
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 .imgcaca{
     margin: 0 auto;
     width: 400px;
-    border: 2px solid #2c5494;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 .clase1 p{
     text-align:justify;
-
 }
 
 .clase2 p{
     text-align: justify;
-    
-
 }
 
 .clase3 p{
     text-align: justify;
-    
 
 }
 
@@ -145,13 +161,14 @@ input[type="text"]{
     height: 50px;
     width: 23%;
 }
+
 .tiposexo{
     margin: 5px;
 }
+
 .tiposangre{
     margin: 5px;
 }
-
 
 form{
     text-align: center;
@@ -169,15 +186,12 @@ form{
 }
 
 #btn:hover {
-
     background-color: rgb(255, 0, 8);
 }
 
-
-
 footer {
     text-align: center;
-    background-color: #daced9;
+    background-color:white;
     border-top: 4px solid #2c5494;
     padding: 20px;
     box-sizing: border-box;
@@ -197,4 +211,8 @@ footer img {
 footer small {
     color: #2c5494;
     margin-top: 30px;
+}
+
+p , li {
+    color: #2c5494;
 }
